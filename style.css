@@ -4,11 +4,14 @@ body {
 }
 
 .tls-home-page {
-    margin-top: 71px;
+    margin-top: 70px;
 }
 
-ol li {
+ol {
     list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-inline-start: 0;
 }
 
 .tls-menu {
@@ -300,7 +303,7 @@ h3 {
     text-align: center;
     align-self: center;
     padding-left: 100px;
-    WIDTH: 65.33%;
+    WIDTH: 65%;
 }
 
 .four-content-one h3 {
@@ -378,6 +381,7 @@ h3 {
 }
 
 .banner-four-two {
+    padding-top: 15px;
     padding-bottom: 15px;
     display: flex;
     align-items: center;
@@ -419,6 +423,10 @@ h3 {
     margin: 0;
 }
 
+.hero-banner-seven .magazine h1 {
+    font-style: normal;
+}
+
 .magazine p {
     font-family: serif;
     font-size: 16px;
@@ -428,7 +436,7 @@ h3 {
 }
 
 .Highlights {
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     max-width: 1165px;
     margin: 0 auto;
     display: grid;
@@ -546,12 +554,16 @@ h3 {
 
 .footer {
     background: #100E1D;
-    color: #fff;
+    color: #ffffff99;
+    font-family: sans-serif;
+    font-size: 14px;
 }
 
-.footer-one {
+.footer-one,
+.footer-two-main {
     max-width: 1165px;
     margin: 0 auto;
+    padding-bottom: 20px;
 }
 
 .footer-two-main {
@@ -559,6 +571,35 @@ h3 {
     grid-template-columns: 20% 20% 20% 20% 20%;
 }
 
-.follow {
+.font {
     display: flex;
+}
+
+.fa-twitter {
+    padding: 0 8px 0 8px;
+}
+
+.color {
+    color: #fff;
+    padding: 0 0 8px;
+}
+
+.fa-spotify {
+    padding: 8px 0 8px 0;
+}
+
+.home,
+.features,
+.archive,
+.explore,
+.footer-four,
+.about-us,
+.shop,
+.follow,
+.podcast {
+    padding-bottom: 30px;
+}
+
+.footer li {
+    padding-bottom: 5px;
 }
