@@ -1,5 +1,7 @@
 # pp-news-website
-## nandhini-pp-news-website.netlify.app
+
+https://nandhini-pp-news-website.netlify.app/    
+
 <p>
 <img src="assest/desktop size-1.jpg">
 <img src="assest/desktop size-2.jpg">
